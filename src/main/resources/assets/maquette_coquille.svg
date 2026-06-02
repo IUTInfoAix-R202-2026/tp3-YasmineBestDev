@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; }
+      .menu { font-size: 12px; fill: #2c3e50; }
+      .h1 { font-size: 22px; font-weight: bold; fill: #2c3e50; }
+      .sub { font-size: 12px; fill: #7f8c8d; }
+      .status { font-size: 11px; fill: #555; }
+      .id-tag { font-size: 10px; fill: #95a5a6; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Fond fenetre -->
+  <rect width="720" height="460" rx="6" ry="6" fill="#fdfdfd" stroke="#888" stroke-width="1.5"/>
+
+  <!-- Top : MenuBar -->
+  <rect x="1.5" y="1.5" width="717" height="34" fill="#e8e8e8" stroke="#bbb" stroke-width="1"/>
+  <text x="22" y="24" class="menu">Fichier</text>
+  <text x="82" y="24" class="menu">Affichage</text>
+  <text x="640" y="23" class="id-tag">MenuBar (top)</text>
+
+  <!-- Center : accueil -->
+  <rect x="1.5" y="35" width="717" height="388" fill="#f5f6f7" stroke="#bbb" stroke-width="1"/>
+  <text x="14" y="55" class="id-tag">BorderPane.center</text>
+  <text x="360" y="220" text-anchor="middle" class="h1">Mes sites de suivi</text>
+  <text x="360" y="252" text-anchor="middle" class="sub">Choisissez une rubrique dans le menu Affichage pour naviguer.</text>
+
+  <!-- Bottom : barre de statut -->
+  <rect x="1.5" y="423" width="717" height="35" fill="#eef0f1" stroke="#bbb" stroke-width="1"/>
+  <text x="22" y="445" class="status">Base locale : ~/VigieChiroCompanion/companion.db</text>
+  <text x="696" y="445" text-anchor="end" class="status">Prêt.</text>
+  <text x="330" y="445" class="id-tag">barre de statut (bottom)</text>
+</svg>

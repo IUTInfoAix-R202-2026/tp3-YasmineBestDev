@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="680" viewBox="0 0 560 680">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, sans-serif; }
+      .id-tag { font-size: 10px; fill: #95a5a6; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="560" height="680" fill="#fdfdfd" stroke="#888" stroke-width="1.5"/>
+
+  <!-- En-tete (tour courant + scores) -->
+  <rect x="1.5" y="1.5" width="557" height="62" fill="#1f2937"/>
+  <circle cx="142" cy="28" r="7" fill="#111"/>
+  <text x="22" y="33" font-size="16" font-weight="bold" fill="#f9fafb">Au tour de :</text>
+  <text x="156" y="33" font-size="16" font-weight="bold" fill="#f9fafb">Noir</text>
+  <circle cx="28" cy="52" r="6" fill="#111" stroke="#888" stroke-width="0.5"/>
+  <text x="40" y="56" font-size="13" fill="#f9fafb">Noir : 2</text>
+  <circle cx="120" cy="52" r="6" fill="#fff" stroke="#888" stroke-width="1"/>
+  <text x="132" y="56" font-size="13" fill="#f9fafb">Blanc : 2</text>
+
+  <!-- Plateau 8x8 -->
+  <rect x="10" y="68" width="540" height="540" fill="#1e6f3f"/>
+  <g stroke="#145830" stroke-width="1.5">
+    <line x1="77.5" y1="68" x2="77.5" y2="608"/><line x1="145" y1="68" x2="145" y2="608"/>
+    <line x1="212.5" y1="68" x2="212.5" y2="608"/><line x1="280" y1="68" x2="280" y2="608"/>
+    <line x1="347.5" y1="68" x2="347.5" y2="608"/><line x1="415" y1="68" x2="415" y2="608"/>
+    <line x1="482.5" y1="68" x2="482.5" y2="608"/>
+    <line x1="10" y1="135.5" x2="550" y2="135.5"/><line x1="10" y1="203" x2="550" y2="203"/>
+    <line x1="10" y1="270.5" x2="550" y2="270.5"/><line x1="10" y1="338" x2="550" y2="338"/>
+    <line x1="10" y1="405.5" x2="550" y2="405.5"/><line x1="10" y1="473" x2="550" y2="473"/>
+    <line x1="10" y1="540.5" x2="550" y2="540.5"/>
+  </g>
+
+  <!-- 4 pions de depart -->
+  <circle cx="246.25" cy="304.25" r="27" fill="#fafafa" stroke="#111" stroke-width="1"/>
+  <circle cx="313.75" cy="304.25" r="27" fill="#111"/>
+  <circle cx="246.25" cy="371.75" r="27" fill="#111"/>
+  <circle cx="313.75" cy="371.75" r="27" fill="#fafafa" stroke="#111" stroke-width="1"/>
+
+  <!-- Barre du bas : Nouvelle partie -->
+  <rect x="1.5" y="610" width="557" height="68" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="225" y="628" width="110" height="30" rx="4" fill="#e8eaed" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="280" y="648" text-anchor="middle" font-size="12" fill="#2c3e50">Nouvelle partie</text>
+
+  <!-- Annotations -->
+  <text x="280" y="86" text-anchor="middle" class="id-tag" fill="#cfe3d6">GridPane 8×8 de Case (Button) — clic → Othellier (modèle) → mise à jour de la vue</text>
+</svg>
